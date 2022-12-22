@@ -7,12 +7,14 @@
 section {
   position: relative;
   display: flex;
+  height: 700px;
+  margin: 0 auto;
 }
 .background {
   position: relative;
   background: url(background.png);
-  height: 100vh;
   width: 670px;
+  height: 100%;
 }
 .right-side {
   position: absolute;
@@ -30,7 +32,7 @@ section {
 .input-box {
   margin-top: 20px;
   margin-left: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 input {
   border: none;
@@ -64,20 +66,22 @@ p {
 .on-off-button {
   position: relative;
   border: 1px solid;
-  width: 42px;
-  height: 24px;
+  width: 36px;
+  height: 20.5px;
   border-radius: 100px;
   background-color: #233d4e;
   margin-left: 300px;
+  vertical-align: middle;
   vertical-align: middle;
 }
 .on-off-button .circle {
   position: absolute;
   border: 1px solid;
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   border-radius: 100px;
   background-color: #ffff;
+  border-color: #ffff;
 }
 .inline,
 .on-off-button {
