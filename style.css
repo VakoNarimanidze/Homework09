@@ -18,8 +18,8 @@ section {
 }
 .right-side {
   position: absolute;
-  left: 640px;
-  height: 100vh;
+  left: 580px;
+  height: 700px;
   background-color: #ffff;
   border: 10px solid;
   border-top-left-radius: 40px;
